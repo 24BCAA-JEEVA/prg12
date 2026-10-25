@@ -1,5 +1,5 @@
 
-name: Deploy PRG12 React App
+name: Deploy PRG12 Shopping Cart
 
 on:
   push:
@@ -39,7 +39,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload build folder
+      - name: Upload React build
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./build
